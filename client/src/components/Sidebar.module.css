@@ -1,0 +1,519 @@
+.avatarFrame {
+  height: 21px;
+  width: 20.8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--orange);
+}
+.iconFromTablerio,
+.unionIcon {
+  position: absolute;
+  margin: 0 !important;
+}
+.iconFromTablerio {
+  height: 12.2px;
+  width: 14.1px;
+  top: 4.86px;
+  left: -3px;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0)
+  );
+  transform: rotate(-33.41deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.unionIcon {
+  height: 7px;
+  width: 7.5px;
+  top: 0;
+  right: 0.5px;
+  object-fit: cover;
+  z-index: 2;
+}
+.logomark {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 6.97px;
+}
+.newYorkFinestFruits {
+  height: 24px;
+  width: 121px;
+  position: relative;
+}
+.orangefarm {
+  width: 121px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 27.2px;
+  letter-spacing: -0.68px;
+  font-weight: 600;
+  display: none;
+  z-index: 2;
+}
+.logo {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-6xs-4);
+}
+.collapseIcon {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.brand,
+.collapse {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.collapse {
+  width: 24px;
+  height: 24px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% + 649px);
+  right: -12px;
+  border-radius: var(--br-5xs);
+  background-color: var(--off-white);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-9xs);
+}
+.brand {
+  align-self: stretch;
+  height: 68px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-xs);
+  position: relative;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-2xl-9);
+  font-family: var(--font-archivo);
+}
+.iconFromTablerio1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.search1 {
+  width: 45px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 14px;
+  position: relative;
+  letter-spacing: -0.25px;
+  line-height: 14px;
+  color: var(--mid-gray);
+  text-align: left;
+  display: inline-block;
+}
+.bar,
+.search {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.bar {
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  border: 1px solid var(--light-gray);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-base);
+  gap: var(--gap-5xs);
+}
+.search {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-xs) var(--padding-xs);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.iconFromTablerio2 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.sidebarItem {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.25px;
+  line-height: 14px;
+}
+.sidebarItem01 {
+  width: 100%;
+  border-radius: var(--br-5xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 264px;
+  max-width: 320px;
+}
+.iconFromTablerio3 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.manageUsers {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.25px;
+  line-height: 14px;
+}
+.closedIcon {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  margin: 0 !important;
+  top: 12.5px;
+  left: 228px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sidebarItem1,
+.sidebarNest {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  min-width: 264px;
+}
+.sidebarItem1 {
+  flex: 1;
+  border-radius: var(--br-5xl);
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-17xl) var(--padding-xs)
+    var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xs);
+  max-width: 320px;
+}
+.sidebarNest {
+  height: 41px;
+  align-items: flex-start;
+}
+.iconFromTablerio4 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.sidebarItem2 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.25px;
+  line-height: 14px;
+}
+.sidebarItem02 {
+  width: 100%;
+  border-radius: var(--br-5xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 264px;
+  max-width: 320px;
+}
+.iconFromTablerio5 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.sidebarItem3 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.25px;
+  line-height: 14px;
+}
+.sidebarItem03 {
+  width: 100%;
+  border-radius: var(--br-5xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 264px;
+  max-width: 320px;
+}
+.iconFromTablerio6 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.sidebarItem4 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.25px;
+  line-height: 14px;
+}
+.sidebarItem04 {
+  width: 100%;
+  border-radius: var(--br-5xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 264px;
+  max-width: 320px;
+}
+.iconFromTablerio7 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.sidebarItem5 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.25px;
+  line-height: 14px;
+}
+.sidebarItem06 {
+  width: 100%;
+  border-radius: var(--br-5xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 264px;
+  max-width: 320px;
+}
+.iconFromTablerio8 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.sidebarItem6 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.25px;
+  line-height: 14px;
+}
+.items,
+.sidebarItem07 {
+  display: flex;
+  justify-content: flex-start;
+}
+.sidebarItem07 {
+  width: 100%;
+  border-radius: var(--br-5xl);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 264px;
+  max-width: 320px;
+}
+.items {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.avatarIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  object-fit: cover;
+}
+.gustavoXavier {
+  position: relative;
+  letter-spacing: -0.25px;
+  font-weight: 500;
+}
+.admin {
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 16px;
+}
+.frameF,
+.info,
+.tag {
+  display: flex;
+  justify-content: center;
+}
+.tag {
+  border-radius: var(--br-5xl);
+  background-color: var(--mid-orange);
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-7xs);
+  font-size: var(--font-size-3xs);
+}
+.frameF,
+.info {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+}
+.info {
+  align-self: stretch;
+  height: 40px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.iconFromTablerio9 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.sidebarItem8 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.25px;
+  line-height: 14px;
+}
+.sidebarItem7 {
+  width: 100%;
+  border-radius: var(--br-5xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 264px;
+  max-width: 320px;
+}
+.iconFromTablerio10 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.sidebarItem10 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.25px;
+  line-height: 14px;
+}
+.sidebarItem9 {
+  width: 100%;
+  border-radius: var(--br-5xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  min-width: 264px;
+  max-width: 320px;
+  color: var(--dark-red);
+}
+.yearlyFrameJ {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-11xs);
+}
+.sidebar,
+.user,
+.yearlyFrameJ {
+  display: flex;
+  flex-direction: column;
+}
+.user {
+  align-self: stretch;
+  height: 180px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-base) var(--padding-5xs) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.sidebar {
+  height: 890px;
+  width: 280px;
+  border-radius: var(--br-base);
+  background-color: var(--white);
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 280px;
+  max-width: 320px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 925px) {
+  .sidebar {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .orangefarm {
+    font-size: var(--font-size-lg);
+  }
+}
